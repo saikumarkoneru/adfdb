@@ -1,0 +1,7 @@
+create database infotable(
+Plan_sno int,
+Plan_sname nvarchar(50),
+Plan_lname nvarchar(50),
+Plan_sAddress nvarchar(50),
+Plan_phone nvarchar(50),
+)
