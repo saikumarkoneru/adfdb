@@ -1,0 +1,34 @@
+{
+	"name": "SPDB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DFDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "EmpNo",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "EMp_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "EMP_lastname",
+				"type": "nvarchar"
+			},
+			{
+				"name": "EMP_Address",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "InputDb2"
+		}
+	}
+}
