@@ -1,0 +1,17 @@
+{
+	"name": "DFDatalakestore",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Connection between Data lake store and Data Factory",
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://testrginfydatalake.azuredatalakestore.net/webhdfs/v1",
+			"servicePrincipalId": "ed9c524f-1b0c-40d8-96da-777fb55189dd",
+			"tenant": "d044d7e1-53e2-4ee0-9ead-9429fbf8d197",
+			"subscriptionId": "4582fdfa-f355-4b9c-8b57-e4342dd0b7e9",
+			"resourceGroupName": "TestRG",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlRFU1RSR0lORllERl9kZDQzNTlhYy1kOTdlLTQzZTUtYjA5ZS02YTBkZTk1MGRlZGUiDQp9"
+		}
+	}
+}
